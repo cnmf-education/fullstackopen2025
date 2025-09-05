@@ -1,0 +1,527 @@
+
+charl@Sunshine MINGW64 ~
+$ git clone https://github.com/cnmf-education/fullstackopen2025.git
+Cloning into 'fullstackopen2025'...
+warning: You appear to have cloned an empty repository.
+
+charl@Sunshine MINGW64 ~
+$ ls
+ AppData/
+'Application Data'@
+ Contacts/
+ Cookies@
+ CrossDevice/
+ Documents/
+ Downloads/
+ Favorites/
+ Links/
+'Local Settings'@
+ Music/
+'My Documents'@
+ NTUSER.DAT
+ NTUSER.DAT{d27eb226-c8f1-11ef-b69f-44a3bb2f2690}.TM.blf
+ NTUSER.DAT{d27eb226-c8f1-11ef-b69f-44a3bb2f2690}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{d27eb226-c8f1-11ef-b69f-44a3bb2f2690}.TMContainer00000000000000000002.regtrans-ms
+ NTUSER.DAT{ffe510eb-8344-11ef-b691-aa694032de7b}.TM.blf
+ NTUSER.DAT{ffe510eb-8344-11ef-b691-aa694032de7b}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{ffe510eb-8344-11ef-b691-aa694032de7b}.TMContainer00000000000000000002.regtrans-ms
+ NetHood@
+ OneDrive/
+ Postman/
+ PrintHood@
+ Recent@
+'Saved Games'/
+ ScreenPal/
+ Searches/
+ SendTo@
+'Start Menu'@
+ Templates@
+ Videos/
+'WPS Cloud Files'/
+ fullstackopen2025/
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ ntuser.ini
+
+charl@Sunshine MINGW64 ~
+$ cd fullstackopen
+bash: cd: fullstackopen: No such file or directory
+
+charl@Sunshine MINGW64 ~
+$ ls
+ AppData/
+'Application Data'@
+ Contacts/
+ Cookies@
+ CrossDevice/
+ Documents/
+ Downloads/
+ Favorites/
+ Links/
+'Local Settings'@
+ Music/
+'My Documents'@
+ NTUSER.DAT
+ NTUSER.DAT{d27eb226-c8f1-11ef-b69f-44a3bb2f2690}.TM.blf
+ NTUSER.DAT{d27eb226-c8f1-11ef-b69f-44a3bb2f2690}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{d27eb226-c8f1-11ef-b69f-44a3bb2f2690}.TMContainer00000000000000000002.regtrans-ms
+ NTUSER.DAT{ffe510eb-8344-11ef-b691-aa694032de7b}.TM.blf
+ NTUSER.DAT{ffe510eb-8344-11ef-b691-aa694032de7b}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{ffe510eb-8344-11ef-b691-aa694032de7b}.TMContainer00000000000000000002.regtrans-ms
+ NetHood@
+ OneDrive/
+ Postman/
+ PrintHood@
+ Recent@
+'Saved Games'/
+ ScreenPal/
+ Searches/
+ SendTo@
+'Start Menu'@
+ Templates@
+ Videos/
+'WPS Cloud Files'/
+ fullstackopen2025/
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ ntuser.ini
+
+charl@Sunshine MINGW64 ~
+$ cd fullstackopen2025
+
+charl@Sunshine MINGW64 ~/fullstackopen2025 (main)
+$ ls
+
+charl@Sunshine MINGW64 ~/fullstackopen2025 (main)
+$ touch .gitignore
+
+charl@Sunshine MINGW64 ~/fullstackopen2025 (main)
+$ ls
+
+charl@Sunshine MINGW64 ~/fullstackopen2025 (main)
+$ ^C
+
+charl@Sunshine MINGW64 ~/fullstackopen2025 (main)
+$ touch .gitignore
+
+charl@Sunshine MINGW64 ~/fullstackopen2025 (main)
+$ ls
+
+charl@Sunshine MINGW64 ~/fullstackopen2025 (main)
+$ touch
+touch: missing file operand
+Try 'touch --help' for more information.
+
+charl@Sunshine MINGW64 ~/fullstackopen2025 (main)
+$ touch .gitignore
+
+charl@Sunshine MINGW64 ~/fullstackopen2025 (main)
+$ ls
+
+charl@Sunshine MINGW64 ~/fullstackopen2025 (main)
+$ touch.gitignore
+bash: touch.gitignore: command not found
+
+charl@Sunshine MINGW64 ~/fullstackopen2025 (main)
+$ touch .gitignore
+
+charl@Sunshine MINGW64 ~/fullstackopen2025 (main)
+$ ^[[200~# Dependencies
+# Build outputs
+dist/
+build/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment files
+.env
+.env.local
+
+# OS-specific
+.DS_Store
+
+# IDE settings
+.vscode/
+.idea/bash: $'\E[200~#': command not found
+
+charl@Sunshine MINGW64 ~/fullstackopen2025 (main)
+$ node_modules/
+bash: node_modules/: No such file or directory
+
+charl@Sunshine MINGW64 ~/fullstackopen2025 (main)
+$
+
+charl@Sunshine MINGW64 ~/fullstackopen2025 (main)
+$ # Build outputs
+
+charl@Sunshine MINGW64 ~/fullstackopen2025 (main)
+$ dist/
+bash: dist/: No such file or directory
+
+charl@Sunshine MINGW64 ~/fullstackopen2025 (main)
+$ build/
+bash: build/: No such file or directory
+
+charl@Sunshine MINGW64 ~/fullstackopen2025 (main)
+$
+
+charl@Sunshine MINGW64 ~/fullstackopen2025 (main)
+$ # Logs
+
+charl@Sunshine MINGW64 ~/fullstackopen2025 (main)
+$ npm-debug.log*
+bash: npm-debug.log*: command not found
+
+charl@Sunshine MINGW64 ~/fullstackopen2025 (main)
+$ yarn-debug.log*
+bash: yarn-debug.log*: command not found
+
+charl@Sunshine MINGW64 ~/fullstackopen2025 (main)
+$ yarn-error.log*
+bash: yarn-error.log*: command not found
+
+charl@Sunshine MINGW64 ~/fullstackopen2025 (main)
+$
+
+charl@Sunshine MINGW64 ~/fullstackopen2025 (main)
+$ # Environment files
+l
+charl@Sunshine MINGW64 ~/fullstackopen2025 (main)
+$ .env
+bash: .env: command not found
+
+charl@Sunshine MINGW64 ~/fullstackopen2025 (main)
+$ .env.local
+bash: .env.local: command not found
+
+charl@Sunshine MINGW64 ~/fullstackopen2025 (main)
+$
+
+charl@Sunshine MINGW64 ~/fullstackopen2025 (main)
+$ # OS-specific
+
+charl@Sunshine MINGW64 ~/fullstackopen2025 (main)
+$ .DS_Store
+bash: .DS_Store: command not found
+
+charl@Sunshine MINGW64 ~/fullstackopen2025 (main)
+$
+
+charl@Sunshine MINGW64 ~/fullstackopen2025 (main)
+$ # IDE settings
+
+charl@Sunshine MINGW64 ~/fullstackopen2025 (main)
+$ .vscode/
+bash: .vscode/: No such file or directory
+
+charl@Sunshine MINGW64 ~/fullstackopen2025 (main)
+$ ls
+
+charl@Sunshine MINGW64 ~/fullstackopen2025 (main)
+$ touch /?
+touch: cannot touch '/?': Permission denied
+
+charl@Sunshine MINGW64 ~/fullstackopen2025 (main)
+$ touch ?
+
+charl@Sunshine MINGW64 ~/fullstackopen2025 (main)
+$ ls
+'?'
+
+charl@Sunshine MINGW64 ~/fullstackopen2025 (main)
+$ rm ?
+
+charl@Sunshine MINGW64 ~/fullstackopen2025 (main)
+$ ls
+
+charl@Sunshine MINGW64 ~/fullstackopen2025 (main)
+$ touch .gitignore
+
+charl@Sunshine MINGW64 ~/fullstackopen2025 (main)
+$ ls
+
+charl@Sunshine MINGW64 ~/fullstackopen2025 (main)
+$ ls -a
+./  ../  .git/  .gitignore
+
+charl@Sunshine MINGW64 ~/fullstackopen2025 (main)
+$ git config --global user.name
+CharlesNeumannMenciasFerrer
+
+charl@Sunshine MINGW64 ~/fullstackopen2025 (main)
+$ git config --global user.email
+128811110+CharlesNeumannMenciasFerrer@users.noreply.github.com
+
+charl@Sunshine MINGW64 ~/fullstackopen2025 (main)
+$ ls -a
+./  ../  .git/  .gitignore
+
+charl@Sunshine MINGW64 ~/fullstackopen2025 (main)
+$ git config user.email cnmf.education@gmail.com
+
+charl@Sunshine MINGW64 ~/fullstackopen2025 (main)
+$ git config user.email
+cnmf.education@gmail.com
+
+charl@Sunshine MINGW64 ~/fullstackopen2025 (main)
+$ git config --global user.email
+128811110+CharlesNeumannMenciasFerrer@users.noreply.github.com
+
+charl@Sunshine MINGW64 ~/fullstackopen2025 (main)
+$ git config --global user.name
+CharlesNeumannMenciasFerrer
+
+charl@Sunshine MINGW64 ~/fullstackopen2025 (main)
+$ git config --global user.email
+128811110+CharlesNeumannMenciasFerrer@users.noreply.github.com
+
+charl@Sunshine MINGW64 ~/fullstackopen2025 (main)
+$ git config user.name
+CharlesNeumannMenciasFerrer
+charl@Sunshine MINGW64 ~/fullstackopen2025 (main)
+$ git config user.email
+cnmf.education@gmail.com
+
+charl@Sunshine MINGW64 ~/fullstackopen2025 (main)
+$ ls
+
+charl@Sunshine MINGW64 ~/fullstackopen2025 (main)
+$ mkdir part0
+
+charl@Sunshine MINGW64 ~/fullstackopen2025 (main)
+$ ls
+part0/
+
+charl@Sunshine MINGW64 ~/fullstackopen2025 (main)
+$ cd part0
+
+charl@Sunshine MINGW64 ~/fullstackopen2025/part0 (main)
+$ ls
+
+charl@Sunshine MINGW64 ~/fullstackopen2025/part0 (main)
+$ touch 0.4_new_note_diagram.md
+
+charl@Sunshine MINGW64 ~/fullstackopen2025/part0 (main)
+$ ls
+0.4_new_note_diagram.md
+
+charl@Sunshine MINGW64 ~/fullstackopen2025/part0 (main)
+$ cd ..
+ls
+charl@Sunshine MINGW64 ~/fullstackopen2025 (main)
+$ ls
+part0/
+
+charl@Sunshine MINGW64 ~/fullstackopen2025 (main)
+$ git add part0/0.4_new_note_diagram.md
+
+charl@Sunshine MINGW64 ~/fullstackopen2025 (main)
+$ git commit -m "Add Part 0 sequence diagram"
+[main (root-commit) db77522] Add Part 0 sequence diagram
+ 1 file changed, 1 insertion(+)
+ create mode 100644 part0/0.4_new_note_diagram.md
+
+charl@Sunshine MINGW64 ~/fullstackopen2025 (main)
+$ git remote -v
+origin  https://github.com/cnmf-education/fullstackopen2025.git (fetch)
+origin  https://github.com/cnmf-education/fullstackopen2025.git (push)
+
+charl@Sunshine MINGW64 ~/fullstackopen2025 (main)
+$ git push origin main
+info: please complete authentication in your browser...
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 400 bytes | 100.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/cnmf-education/fullstackopen2025.git
+ * [new branch]      main -> main
+
+charl@Sunshine MINGW64 ~/fullstackopen2025 (main)
+$ git add part0/0.4_new_note_diagram.md
+
+charl@Sunshine MINGW64 ~/fullstackopen2025 (main)
+$ git commit -m "fix part0 formatting"
+[main b4b0aee] fix part0 formatting
+ 1 file changed, 7 insertions(+), 1 deletion(-)
+
+charl@Sunshine MINGW64 ~/fullstackopen2025 (main)
+$ git push origin main
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 428 bytes | 142.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/cnmf-education/fullstackopen2025.git
+   db77522..b4b0aee  main -> main
+
+charl@Sunshine MINGW64 ~/fullstackopen2025 (main)
+$ git add part0/0.4_new_note_diagram.md
+
+charl@Sunshine MINGW64 ~/fullstackopen2025 (main)
+$ git commit -m "add more details"
+[main f134647] add more details
+ 1 file changed, 33 insertions(+), 5 deletions(-)
+
+charl@Sunshine MINGW64 ~/fullstackopen2025 (main)
+$ git push origin main
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 647 bytes | 323.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/cnmf-education/fullstackopen2025.git
+   b4b0aee..f134647  main -> main
+
+charl@Sunshine MINGW64 ~/fullstackopen2025 (main)
+$ touch 0^C
+
+charl@Sunshine MINGW64 ~/fullstackopen2025 (main)
+$ touch 0.5_single_page_app_diagram.md
+
+charl@Sunshine MINGW64 ~/fullstackopen2025 (main)
+$ ls
+0.5_single_page_app_diagram.md  part0/
+
+charl@Sunshine MINGW64 ~/fullstackopen2025 (main)
+$ rm 0.5_single_page_app_diagram.md
+
+charl@Sunshine MINGW64 ~/fullstackopen2025 (main)
+$ ls
+part0/
+
+charl@Sunshine MINGW64 ~/fullstackopen2025 (main)
+$ cd part0
+
+charl@Sunshine MINGW64 ~/fullstackopen2025/part0 (main)
+$ rm 0.5_single_page_app_diagram.md
+rm: cannot remove '0.5_single_page_app_diagram.md': No such file or directory
+
+charl@Sunshine MINGW64 ~/fullstackopen2025/part0 (main)
+$ touch 0.5_single_page_app_diagram.md
+
+charl@Sunshine MINGW64 ~/fullstackopen2025/part0 (main)
+$ ls
+0.4_new_note_diagram.md  0.5_single_page_app_diagram.md
+
+charl@Sunshine MINGW64 ~/fullstackopen2025/part0 (main)
+$ cd..
+bash: cd..: command not found
+
+charl@Sunshine MINGW64 ~/fullstackopen2025/part0 (main)
+$ cd ..
+
+charl@Sunshine MINGW64 ~/fullstackopen2025 (main)
+$ ls
+part0/
+
+charl@Sunshine MINGW64 ~/fullstackopen2025 (main)
+$ git add part0/0.5_singlw_page_app_diagram.md
+fatal: pathspec 'part0/0.5_singlw_page_app_diagram.md' did not match any files
+
+charl@Sunshine MINGW64 ~/fullstackopen2025 (main)
+$ git add part0/0.5_single_page_app_diagram.md
+
+charl@Sunshine MINGW64 ~/fullstackopen2025 (main)
+$ git commit -m "add 0.5 single page app diagram"
+[main 6448421] add 0.5 single page app diagram
+ 1 file changed, 30 insertions(+)
+ create mode 100644 part0/0.5_single_page_app_diagram.md
+
+charl@Sunshine MINGW64 ~/fullstackopen2025 (main)
+$ git push origin main
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 656 bytes | 164.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/cnmf-education/fullstackopen2025.git
+   f134647..6448421  main -> main
+
+charl@Sunshine MINGW64 ~/fullstackopen2025 (main)
+$ ls
+part0/
+d
+charl@Sunshine MINGW64 ~/fullstackopen2025 (main)
+$ ls
+part0/
+
+charl@Sunshine MINGW64 ~/fullstackopen2025 (main)
+$ cd part0
+
+charl@Sunshine MINGW64 ~/fullstackopen2025/part0 (main)
+$ ls
+0.4_new_note_diagram.md  0.5_single_page_app_diagram.md
+
+charl@Sunshine MINGW64 ~/fullstackopen2025/part0 (main)
+$ touch 0.6_new_note_in_single_page_app_diagram.md
+
+charl@Sunshine MINGW64 ~/fullstackopen2025/part0 (main)
+$ ls
+0.4_new_note_diagram.md         0.6_new_note_in_single_page_app_diagram.md
+0.5_single_page_app_diagram.md
+
+charl@Sunshine MINGW64 ~/fullstackopen2025/part0 (main)
+$ ls
+0.4_new_note_diagram.md         0.6_new_note_in_single_page_app_diagram.md
+0.5_single_page_app_diagram.md
+
+charl@Sunshine MINGW64 ~/fullstackopen2025/part0 (main)
+$ cd..
+bash: cd..: command not found
+
+charl@Sunshine MINGW64 ~/fullstackopen2025/part0 (main)
+$ cd ..
+
+charl@Sunshine MINGW64 ~/fullstackopen2025 (main)
+$ ls
+part0/
+charl@Sunshine MINGW64 ~/fullstackopen2025 (main)
+$ git add part0/0.6_new_note_in_single_page_app_diagram.md
+
+charl@Sunshine MINGW64 ~/fullstackopen2025 (main)
+$ git commit -m "add 0.6 new note in single page app diagram"
+[main a666886] add 0.6 new note in single page app diagram
+ 1 file changed, 41 insertions(+)
+ create mode 100644 part0/0.6_new_note_in_single_page_app_diagram.md
+
+charl@Sunshine MINGW64 ~/fullstackopen2025 (main)
+$ git push origin main
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 825 bytes | 412.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/cnmf-education/fullstackopen2025.git
+   6448421..a666886  main -> main
+
+charl@Sunshine MINGW64 ~/fullstackopen2025 (main)
+$ git add part0/0.4_new_note_diagram.md
+
+charl@Sunshine MINGW64 ~/fullstackopen2025 (main)
+$ git commit -m "updated with correction"
+[main 48bb7bd] updated with correction
+ 1 file changed, 7 insertions(+), 3 deletions(-)
+
+charl@Sunshine MINGW64 ~/fullstackopen2025 (main)
+$ git push origin main
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 544 bytes | 272.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/cnmf-education/fullstackopen2025.git
+   a666886..48bb7bd  main -> main
+
+charl@Sunshine MINGW64 ~/fullstackopen2025 (main)
+$
