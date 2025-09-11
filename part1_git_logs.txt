@@ -1,0 +1,379 @@
+
+charl@Sunshine MINGW64 ~
+$ ls
+ AppData/
+'Application Data'@
+ Contacts/
+ Cookies@
+ CrossDevice/
+ Documents/
+ Downloads/
+ Favorites/
+ Links/
+'Local Settings'@
+ Music/
+'My Documents'@
+ NTUSER.DAT
+ NTUSER.DAT{d27eb225-c8f1-11ef-b69f-44a3bb2f2690}.TxR.0.regtrans-ms
+ NTUSER.DAT{d27eb225-c8f1-11ef-b69f-44a3bb2f2690}.TxR.1.regtrans-ms
+ NTUSER.DAT{d27eb225-c8f1-11ef-b69f-44a3bb2f2690}.TxR.2.regtrans-ms
+ NTUSER.DAT{d27eb225-c8f1-11ef-b69f-44a3bb2f2690}.TxR.blf
+ NTUSER.DAT{d27eb226-c8f1-11ef-b69f-44a3bb2f2690}.TM.blf
+ NTUSER.DAT{d27eb226-c8f1-11ef-b69f-44a3bb2f2690}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{d27eb226-c8f1-11ef-b69f-44a3bb2f2690}.TMContainer00000000000000000002.regtrans-ms
+ NTUSER.DAT{ffe510eb-8344-11ef-b691-aa694032de7b}.TM.blf
+ NTUSER.DAT{ffe510eb-8344-11ef-b691-aa694032de7b}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{ffe510eb-8344-11ef-b691-aa694032de7b}.TMContainer00000000000000000002.regtrans-ms
+ NetHood@
+ OneDrive/
+ Postman/
+ PrintHood@
+ Recent@
+'Saved Games'/
+ ScreenPal/
+ Searches/
+ SendTo@
+'Start Menu'@
+ Templates@
+ Videos/
+'WPS Cloud Files'/
+ fullstackopen2025/
+ introdemo/
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ ntuser.ini
+
+charl@Sunshine MINGW64 ~
+$ cd fullstackopen
+bash: cd: fullstackopen: No such file or directory
+
+charl@Sunshine MINGW64 ~
+$ cd fullstackopen2025
+
+charl@Sunshine MINGW64 ~/fullstackopen2025 (main)
+$ ls
+part0/  part0_git_logs.txt  part1/
+
+charl@Sunshine MINGW64 ~/fullstackopen2025 (main)
+$ git add .
+
+charl@Sunshine MINGW64 ~/fullstackopen2025 (main)
+$ git commit -m "Add Part 1: courseinfo app (exercises 1.1)
+> "
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+charl@Sunshine MINGW64 ~/fullstackopen2025 (main)
+$ git pull origin main --rebase
+From https://github.com/cnmf-education/fullstackopen2025
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+
+charl@Sunshine MINGW64 ~/fullstackopen2025 (main)
+$ it push origin main
+bash: it: command not found
+
+charl@Sunshine MINGW64 ~/fullstackopen2025 (main)
+$ git push origin main
+Everything up-to-date
+
+charl@Sunshine MINGW64 ~/fullstackopen2025 (main)
+$ ls
+part0/  part0_git_logs.txt  part1/
+d
+charl@Sunshine MINGW64 ~/fullstackopen2025 (main)
+$ cd part 1
+bash: cd: too many arguments
+
+charl@Sunshine MINGW64 ~/fullstackopen2025 (main)
+$ cd part1
+
+charl@Sunshine MINGW64 ~/fullstackopen2025/part1 (main)
+$ ls -a
+./  ../  courseinfo/
+
+charl@Sunshine MINGW64 ~/fullstackopen2025/part1 (main)
+$ cd courseinfo
+
+charl@Sunshine MINGW64 ~/fullstackopen2025/part1/courseinfo (main)
+$ ls
+README.md         index.html     package-lock.json  public/  vite.config.js
+eslint.config.js  node_modules/  package.json       src/
+
+charl@Sunshine MINGW64 ~/fullstackopen2025/part1/courseinfo (main)
+$ ls -a
+./          README.md         node_modules/      public/
+../         eslint.config.js  package-lock.json  src/
+.gitignore  index.html        package.json       vite.config.js
+
+charl@Sunshine MINGW64 ~/fullstackopen2025/part1/courseinfo (main)
+$ rm -rf .git
+
+charl@Sunshine MINGW64 ~/fullstackopen2025/part1/courseinfo (main)
+$ cd ..
+
+charl@Sunshine MINGW64 ~/fullstackopen2025/part1 (main)
+$ cd ..
+
+charl@Sunshine MINGW64 ~/fullstackopen2025 (main)
+$ git add part1/courseinfo
+
+charl@Sunshine MINGW64 ~/fullstackopen2025 (main)
+$ git commit -m "Add Part 1: courseinfo app (exercises 1.1)"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+charl@Sunshine MINGW64 ~/fullstackopen2025 (main)
+$ cd ~/fullstackopen2025/part1/courseinfo
+
+charl@Sunshine MINGW64 ~/fullstackopen2025/part1/courseinfo (main)
+$ ls -a
+./          README.md         node_modules/      public/
+../         eslint.config.js  package-lock.json  src/
+.gitignore  index.html        package.json       vite.config.js
+
+charl@Sunshine MINGW64 ~/fullstackopen2025/part1/courseinfo (main)
+$ cd ~/fullstackopen2025
+
+charl@Sunshine MINGW64 ~/fullstackopen2025 (main)
+$ git add part1/courseinfo
+
+charl@Sunshine MINGW64 ~/fullstackopen2025 (main)
+$ git commit -m "Add Part 1: courseinfo app (exercises 1.1) - fixed"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+charl@Sunshine MINGW64 ~/fullstackopen2025 (main)
+$ git push origin main
+Everything up-to-date
+
+charl@Sunshine MINGW64 ~/fullstackopen2025 (main)
+$ git add -f part1/courseinfo
+
+charl@Sunshine MINGW64 ~/fullstackopen2025 (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+charl@Sunshine MINGW64 ~/fullstackopen2025 (main)
+$ ls
+part0/  part0_git_logs.txt  part1/
+
+charl@Sunshine MINGW64 ~/fullstackopen2025 (main)
+$ cd part1
+
+charl@Sunshine MINGW64 ~/fullstackopen2025/part1 (main)
+$ ls
+courseinfo/
+
+charl@Sunshine MINGW64 ~/fullstackopen2025/part1 (main)
+$ ls -a
+./  ../  courseinfo/
+
+charl@Sunshine MINGW64 ~/fullstackopen2025/part1 (main)
+$ cd..
+bash: cd..: command not found
+
+charl@Sunshine MINGW64 ~/fullstackopen2025/part1 (main)
+$ cd ..
+
+charl@Sunshine MINGW64 ~/fullstackopen2025 (main)
+$ ls -a
+./  ../  .git/  .gitignore  part0/  part0_git_logs.txt  part1/
+
+charl@Sunshine MINGW64 ~/fullstackopen2025 (main)
+$ cd part1
+
+charl@Sunshine MINGW64 ~/fullstackopen2025/part1 (main)
+$ ls -a
+./  ../  courseinfo/
+
+charl@Sunshine MINGW64 ~/fullstackopen2025/part1 (main)
+$ cd courseinfo
+
+charl@Sunshine MINGW64 ~/fullstackopen2025/part1/courseinfo (main)
+$ ls -a
+./          README.md         node_modules/      public/
+../         eslint.config.js  package-lock.json  src/
+.gitignore  index.html        package.json       vite.config.js
+
+charl@Sunshine MINGW64 ~/fullstackopen2025/part1/courseinfo (main)
+$ cd ~/fullstackopen2025
+
+charl@Sunshine MINGW64 ~/fullstackopen2025 (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+charl@Sunshine MINGW64 ~/fullstackopen2025 (main)
+$ git ls-files --stage | grep courseinfo
+160000 eae300e86dc30f1879740d0c509bbcd2d80405ed 0       part1/courseinfo
+
+charl@Sunshine MINGW64 ~/fullstackopen2025 (main)
+$ git rm -r --cached part1/courseinfo
+rm 'part1/courseinfo'
+
+charl@Sunshine MINGW64 ~/fullstackopen2025 (main)
+$ git add part1/courseinfo
+warning: in the working copy of 'part1/courseinfo/.gitignore', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'part1/courseinfo/README.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'part1/courseinfo/eslint.config.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'part1/courseinfo/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'part1/courseinfo/package-lock.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'part1/courseinfo/package.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'part1/courseinfo/src/App.jsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'part1/courseinfo/src/main.jsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'part1/courseinfo/vite.config.js', LF will be replaced by CRLF the next time Git touches it
+
+charl@Sunshine MINGW64 ~/fullstackopen2025 (main)
+$ git commit -m "Add Part 1: courseinfo app (exercises 1.1) - fixed"
+[main 354813f] Add Part 1: courseinfo app (exercises 1.1) - fixed
+ 12 files changed, 2962 insertions(+), 1 deletion(-)
+ delete mode 160000 part1/courseinfo
+ create mode 100644 part1/courseinfo/.gitignore
+ create mode 100644 part1/courseinfo/README.md
+ create mode 100644 part1/courseinfo/eslint.config.js
+ create mode 100644 part1/courseinfo/index.html
+ create mode 100644 part1/courseinfo/package-lock.json
+ create mode 100644 part1/courseinfo/package.json
+ create mode 100644 part1/courseinfo/public/vite.svg
+ create mode 100644 part1/courseinfo/src/App.jsx
+ create mode 100644 part1/courseinfo/src/assets/react.svg
+ create mode 100644 part1/courseinfo/src/main.jsx
+ create mode 100644 part1/courseinfo/vite.config.js
+
+charl@Sunshine MINGW64 ~/fullstackopen2025 (main)
+$ git push origin main
+Enumerating objects: 20, done.
+Counting objects: 100% (20/20), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (15/15), done.
+Writing objects: 100% (18/18), 27.40 KiB | 2.74 MiB/s, done.
+Total 18 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/cnmf-education/fullstackopen2025.git
+   489c844..354813f  main -> main
+
+charl@Sunshine MINGW64 ~/fullstackopen2025 (main)
+$ git commit -m "Add Part 1: courseinfo app (exercises 1.1 and 1.2)"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   part1/courseinfo/src/App.jsx
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+charl@Sunshine MINGW64 ~/fullstackopen2025 (main)
+$ git add .
+warning: in the working copy of 'part1/courseinfo/src/App.jsx', LF will be replaced by CRLF the next time Git touches it
+
+charl@Sunshine MINGW64 ~/fullstackopen2025 (main)
+$ git commit -m "Add Part 1: courseinfo app (exercises 1.1 and 1.2)"
+[main 1ee0048] Add Part 1: courseinfo app (exercises 1.1 and 1.2)
+ 1 file changed, 10 insertions(+), 3 deletions(-)
+
+charl@Sunshine MINGW64 ~/fullstackopen2025 (main)
+$ git push origin main
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 652 bytes | 652.00 KiB/s, done.
+Total 6 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+To https://github.com/cnmf-education/fullstackopen2025.git
+   354813f..1ee0048  main -> main
+
+charl@Sunshine MINGW64 ~/fullstackopen2025 (main)
+$
+////////////////////////////////////////////////////////////////////////////////////
+
+
+charl@Sunshine MINGW64 ~
+$ ls
+ AppData/
+'Application Data'@
+ Contacts/
+ Cookies@
+ CrossDevice/
+ Documents/
+ Downloads/
+ Favorites/
+ Links/
+'Local Settings'@
+ Music/
+'My Documents'@
+ NTUSER.DAT
+ NTUSER.DAT{d27eb226-c8f1-11ef-b69f-44a3bb2f2690}.TM.blf
+ NTUSER.DAT{d27eb226-c8f1-11ef-b69f-44a3bb2f2690}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{d27eb226-c8f1-11ef-b69f-44a3bb2f2690}.TMContainer00000000000000000002.regtrans-ms
+ NTUSER.DAT{ffe510eb-8344-11ef-b691-aa694032de7b}.TM.blf
+ NTUSER.DAT{ffe510eb-8344-11ef-b691-aa694032de7b}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{ffe510eb-8344-11ef-b691-aa694032de7b}.TMContainer00000000000000000002.regtrans-ms
+ NetHood@
+ OneDrive/
+ Postman/
+ PrintHood@
+ Recent@
+'Saved Games'/
+ ScreenPal/
+ Searches/
+ SendTo@
+'Start Menu'@
+ Templates@
+ Videos/
+'WPS Cloud Files'/
+ fullstackopen2025/
+ introdemo/
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ ntuser.ini
+
+charl@Sunshine MINGW64 ~
+$ cd fullstackopen2025
+
+charl@Sunshine MINGW64 ~/fullstackopen2025 (main)
+$ ls
+part0/  part0_git_logs.txt  part1/  part1_git_logs.txt
+
+charl@Sunshine MINGW64 ~/fullstackopen2025 (main)
+$ cd part1
+
+charl@Sunshine MINGW64 ~/fullstackopen2025/part1 (main)
+$ ls
+courseinfo/
+
+charl@Sunshine MINGW64 ~/fullstackopen2025/part1 (main)
+$ cd courseinfo
+
+charl@Sunshine MINGW64 ~/fullstackopen2025/part1/courseinfo (main)
+$ ls
+README.md         index.html     package-lock.json  public/  vite.config.js
+eslint.config.js  node_modules/  package.json       src/
+
+charl@Sunshine MINGW64 ~/fullstackopen2025/part1/courseinfo (main)
+$ npm run dev
+
+> courseinfo@0.0.0 dev
+> vite
+
+
+  VITE v7.1.3  ready in 837 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+  ➜  press h + enter to show help
+/////////////////////////////////////////////////////////////////////////////////
