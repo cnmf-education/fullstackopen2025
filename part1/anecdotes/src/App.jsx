@@ -43,10 +43,14 @@ const App = () => {
       <div>has {votes[selected]} votes </div>
       <button onClick={voteAnecdote}>vote</button> 
       <button onClick={clickNext}>next anecdote</button>  
-
-      <h1>Anecdote with most votes</h1>   
-      <div>{anecdotes[mostVotesIndex]}</div>
-      <div>has {votes[mostVotesIndex]} votes </div>
+    {/* Show this section only if at least one vote exists */}
+      {maxVotes>0 && (
+        <>
+          <h1>Anecdote with most votes</h1>   
+          <div>{anecdotes[mostVotesIndex]}</div>
+          <div>has {votes[mostVotesIndex]} votes </div>
+        </>
+      )}
     </div>
   )
 }
