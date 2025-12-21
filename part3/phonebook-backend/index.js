@@ -134,9 +134,13 @@ app.get(`/api/persons/:id`, (request, response) => {
 //3.4: Phonebook backend step 4 (modified for 3.9)
 app.delete('/api/persons/:id', (request, response) => {
     Person.findByIdAndRemove (request.params.id)
-        .then (() => {
-            response.status(204).end()
+        .then (result => {
+            if (result) response.status(204).end()
+            else        response.status(404).end()    
         })   
+        .catch( error => 
+            response.status(400).json({ error: `malformatted id` })    
+        )
 })
 
 
@@ -178,8 +182,12 @@ app.post('/api/persons', (request, response) => {
     })
 
     person.save()
-        .then(savedPerson => response.json(savedPerson)  )
-
+        .then( savedPerson => 
+            response.json(savedPerson)  
+        )
+        .catch( error => 
+            response.status(400).json({ error: error.message })    
+        )
 })
 
 // --- UNKNOWN ENDPOINT MIDDLEWARE ---
