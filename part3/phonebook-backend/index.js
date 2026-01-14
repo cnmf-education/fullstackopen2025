@@ -5,6 +5,7 @@ const mongoose = require('mongoose')
 const Person = require('./models/person')
 const express = require('express')
 const morgan = require('morgan')
+const path = require('path') // 3.11 
 const app = express()
 const PORT = process.env.PORT || 3001; //for render
 
@@ -20,6 +21,7 @@ mongoose.connect(process.env.MONGODB_URI)
 
 // --- MIDDLEWARE ---
 app.use(express.json())
+app.use(express.static('dist')) // 3.11
 
 
 //3.7: Phonebook backend step 7
@@ -189,6 +191,11 @@ app.post('/api/persons', (request, response) => {
             response.status(400).json({ error: error.message })    
         )
 })
+//  --- Catch All endpoint
+app.get('*', (request, response) => {
+  response.sendFile(path.join(__dirname, 'dist', 'index.html'))
+})
+
 
 // --- UNKNOWN ENDPOINT MIDDLEWARE ---
 const unknownEndpoint = (request, response) => {
