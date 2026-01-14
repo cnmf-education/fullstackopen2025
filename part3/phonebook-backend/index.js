@@ -191,17 +191,26 @@ app.post('/api/persons', (request, response) => {
             response.status(400).json({ error: error.message })    
         )
 })
-//  --- Catch All endpoint
-app.get('/*', (request, response) => {
-  response.sendFile(path.join(__dirname, 'dist', 'index.html'))
+
+// --- UNKNOWN ENDPOINT MIDDLEWARE ---
+app.use('/api', (req, res) => {
+  res.status(404).json({ error: 'unknown endpoint' })
 })
 
 
+//  --- Catch All endpoint
+// app.get('/*', (request, response) => {
+//   response.sendFile(path.join(__dirname, 'dist', 'index.html'))
+// })
+app.use((request, response) => {
+  response.sendFile(path.join(__dirname, 'dist', 'index.html'))
+})
+
 // --- UNKNOWN ENDPOINT MIDDLEWARE ---
-const unknownEndpoint = (request, response) => {
-  response.status(404).json({ error: 'unknown endpoint' })
-}
-app.use(unknownEndpoint)
+// const unknownEndpoint = (request, response) => {
+//   response.status(404).json({ error: 'unknown endpoint' })
+// }
+// app.use(unknownEndpoint)
 
 
 // --- START SERVER ---
