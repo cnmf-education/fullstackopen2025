@@ -192,7 +192,7 @@ app.post('/api/persons', (request, response) => {
         )
 })
 //  --- Catch All endpoint
-app.get('*', (request, response) => {
+app.get('/*', (request, response) => {
   response.sendFile(path.join(__dirname, 'dist', 'index.html'))
 })
 
